@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGridView_Adm_Com_NuGet", "DataGridView_Adm_Com_NuGet.csproj", "{0DD114A2-4C60-48FC-BBFA-9845FCD6E71D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdmComDGVNuGet", "..\NuGet\AdmComDGVNuGet.csproj", "{0276DFA3-610A-419E-A61C-2FA4D9FE319D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD114A2-4C60-48FC-BBFA-9845FCD6E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD114A2-4C60-48FC-BBFA-9845FCD6E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD114A2-4C60-48FC-BBFA-9845FCD6E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD114A2-4C60-48FC-BBFA-9845FCD6E71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0276DFA3-610A-419E-A61C-2FA4D9FE319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0276DFA3-610A-419E-A61C-2FA4D9FE319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0276DFA3-610A-419E-A61C-2FA4D9FE319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0276DFA3-610A-419E-A61C-2FA4D9FE319D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F52615D-08AC-43D9-A689-F254D249CBDB}
+	EndGlobalSection
+EndGlobal
