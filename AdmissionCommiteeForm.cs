@@ -74,8 +74,7 @@ namespace DataGridView_Adm_Com_NuGet
             var infoForm = new EntrantInfoForm(id);
             if (infoForm.ShowDialog(this) == DialogResult.OK)
             {
-                var index = entrants.IndexOf(id);
-                entrants[index] = infoForm.Entrant;
+                nGPkg.Change(id, infoForm.Entrant, ref entrants);
                 bindingSource.ResetBindings(false);
             }
         }
@@ -91,7 +90,7 @@ namespace DataGridView_Adm_Com_NuGet
             if (MessageBox.Show($"Вы действительно хотите удалить {id.FullName}?",
                 "Удаление записи", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                entrants.Remove(id);
+                nGPkg.Remove(id, ref entrants);
                 bindingSource.ResetBindings(false);
             }
         }
