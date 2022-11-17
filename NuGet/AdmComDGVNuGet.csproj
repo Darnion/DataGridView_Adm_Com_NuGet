@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>KonevYefim</Authors>
+    <Version>1.0.1.4</Version>
+    <Description>Для DataGridView "Приемная комиссия"</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE\LICENSE.txt" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
